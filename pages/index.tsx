@@ -35,7 +35,7 @@ export default function Home ({posts}: Props) {
         {posts.map(post => (
           <Link key={post._id} href={`/post/${post.slug.current}`}>
             <div className='border rounded-lg group cursor-pointer overflow-hidden'>
-              <img className='h-30 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out' src={post.imagelink} alt="Featured Image for the Article" />
+              <img className='h-[400px] w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out' src={post.imagelink} alt="Featured Image for the Article" />
               <div className='flex justify-between p-5 bg-white'>
            
              <div>
