@@ -20,8 +20,9 @@ function Post({post}: Props) {
         <title>XXXFLIX - SEX SEX SEXY</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" /> 
-        <meta name="description" content="XXXFLIX - SEX SEX SEXY" />
+        <meta name="description" content={post.description}/>
         <meta name="keywords" content={post.description} />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
     <main>
         <Header /> 
