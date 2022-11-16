@@ -19,6 +19,7 @@ export default function Home ({posts}: Props) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" /> 
         <meta name="description" content="XXXFLIX - SEX SEX SEXY" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="keywords" content="PORN SEX FUCK XXX XNXX XHAMSTER PORNHUB NAUGHTYAMERICA BRAZZERS FreE PORN WATCH SEX INDIAN SEX WHITE SEX BLACK SEX S" />
       </Head>
       <Header />
